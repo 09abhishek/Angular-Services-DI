@@ -13,6 +13,7 @@ export class AppComponent implements OnInit  {
 
   ngOnInit() {
     this.accounts = this.accountsService.accounts;
+    // just for the  commit update
   }
 }
 
